@@ -4,9 +4,17 @@
 // Use of this source code is governed by terms that can be
 // found in the LICENSE file in the root of this package.
 
-// Time typedefs
+/// Microseconds
 typedef GgMicroseconds = double;
+
+/// Milliseconds
 typedef GgMilliseconds = double;
+
+/// Seconds
 typedef GgSeconds = double;
+
+/// Hours
 typedef GgHours = double;
+
+/// Days
 typedef GgDays = double;
