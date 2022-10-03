@@ -1,0 +1,12 @@
+name: gg_typedefs
+description: This package provides a bunch of typedefs used in various of our projects.
+version: 1.0.0
+homepage: https://github.com/inlavigo/gg_typedefs
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
+  flutter_lints: ^2.0.1
