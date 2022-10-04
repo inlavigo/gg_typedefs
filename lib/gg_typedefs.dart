@@ -8,3 +8,4 @@
 library gg_typedefs;
 
 export 'src/gg_time_typedefs.dart';
+export 'src/gg_time_extensions.dart';

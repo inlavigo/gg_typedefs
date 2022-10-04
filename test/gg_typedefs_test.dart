@@ -15,5 +15,19 @@ void main() {
       GgDays days = 0.0;
       expect(days, 0.0);
     });
+
+    // #########################################################################
+    group('DurationToGgDuration', () {
+      test('converts a duration into a GgDuration', () {
+        expect(const Duration(seconds: 2).ggSeconds, 2);
+      });
+    });
+
+    // #########################################################################
+    group('GgSecondsToDuration', () {
+      test('converts GgSeconds to Duration', () {
+        expect(1.0.ggDuration, const Duration(seconds: 1));
+      });
+    });
   });
 }
