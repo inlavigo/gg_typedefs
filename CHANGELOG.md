@@ -1,4 +1,6 @@
-## 1.0.0+beta.4
+# Change Log
 
-- Add time typedefs `GgMicroseconds`, `GgMilliseconds`,  `GgSeconds`,
-  `GgHours`,  `GgDays`.
+## 1.1.0
+
+- Add time typedefs `GgMicroseconds`, `GgMilliseconds`, `GgSeconds`,
+  `GgHours`, `GgDays`.

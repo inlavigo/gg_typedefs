@@ -9,12 +9,14 @@ import 'gg_time_typedefs.dart';
 
 /// Converts a duration into GgSeconds
 extension DurationToGgDuration on Duration {
+  /// Seconds
   GgSeconds get ggSeconds => inMicroseconds / 1000000.0;
 }
 
 // .............................................................................
 /// Converts GgSeconds into duration
 extension GgSecondsToDuration on GgSeconds {
+  /// Convert Duration into ggDuration
   Duration get ggDuration =>
       Duration(microseconds: (this * 1000 * 1000).toInt());
 }
