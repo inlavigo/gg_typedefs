@@ -18,3 +18,6 @@ typedef GgHours = double;
 
 /// Days
 typedef GgDays = double;
+
+/// Example for GgMilliseconds
+GgMilliseconds get milliSecondsExample => 1.234;
