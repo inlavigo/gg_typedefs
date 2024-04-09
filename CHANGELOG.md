@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased]
+
+### Removed
+
+- 'Pipline: Disable cache'
+
 ## [1.1.1] - 2024-04-09
 
 ### Changed
@@ -10,4 +16,5 @@
 - Add time typedefs `GgMicroseconds`, `GgMilliseconds`, `GgSeconds`,
 `GgHours`, `GgDays`.
 
+[Unreleased]: https://github.com/inlavigo/gg_typedefs/compare/1.1.1...HEAD
 [1.1.1]: https://github.com/inlavigo/gg_typedefs/tag/%tag
